@@ -1,12 +1,10 @@
 import { React } from 'react';
 import './App.scss';
-import SimpleButton from './components/simpleButton';
+import Addition from './components/Addition';
 
-const App = ({ state: { count, refreshID }}) =>
+const App = (context) =>
 	<div className="App">
-		<div>Count: { count }</div>
-		<div>{ SimpleButton() }</div>
-		<div>Refresh ID: { refreshID }</div>
+		<Addition { ...context }/>
 	</div>;
 
 export default App;

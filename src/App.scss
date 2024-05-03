@@ -3,5 +3,25 @@
 
 	button {
 		font-weight: bold;
+		background-color: aquamarine;
+		margin: 10px;
+		padding: 5px,10px;
+		border: 30%;
+		border-color: indigo;
 	}
+	input[type=number]{
+    margin: 10px;
+		padding: 10px;
+		border:1px solid;
+		box-sizing: border-box;
+
+	}
+	.box {	border-color: black;
+		border:1px solid;
+	 width:30vw;
+	 height: 50vh;
+	 margin: 10vh auto;
+	 background-color: pink;
+	}
+
 }
