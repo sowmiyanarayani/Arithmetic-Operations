@@ -1,5 +1,3 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
-
 const config = {
 	countStart: 0,
 	increment: 1,
@@ -17,7 +15,6 @@ const config = {
 			name: 'secondNumber',
 		},
 	],
-
 };
 
 export default config;
