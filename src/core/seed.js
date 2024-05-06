@@ -1,7 +1,7 @@
 const seed = {
 	firstNumber: '',
 	secondNumber: '',
-	total: '',
+	result: '',
 };
 
 export default seed;

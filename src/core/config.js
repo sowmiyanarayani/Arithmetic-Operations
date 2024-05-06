@@ -6,13 +6,31 @@ const config = {
 			value: 'firstNumber',
 			event: 'setNumberA',
 			label: 'A',
-			name: 'firstNumber',
+			name: 'Enter a number',
 		},
 		{
 			value: 'secondNumber',
 			event: 'setNumberB',
 			label: 'B',
-			name: 'secondNumber',
+			name: 'Enter a number',
+		},
+	],
+	operations: [
+		{
+			label: 'addition',
+			action: 'setSum',
+		},
+		{
+			label: 'subtraction',
+			action: 'setDifference',
+		},
+		{
+			label: 'multiply',
+			action: 'setProduct',
+		},
+		{
+			label: 'divide',
+			action: 'setQuotient',
 		},
 	],
 };

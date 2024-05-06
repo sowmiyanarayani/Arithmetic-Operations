@@ -4,8 +4,8 @@ import TextBox from './TextBox';
 const Inputs = (context) => {
 	const { config: { textBoxes }} = context;
 
-	return textBoxes.map((params, key) =>
-		<TextBox key={ key }{ ...{ ...context, data: { ...params }} }/>);
+	return textBoxes.map((texts, key) =>
+		<TextBox key={ key }{ ...{ ...context, data: { ...texts }} }/>);
 };
 
 export default Inputs;
