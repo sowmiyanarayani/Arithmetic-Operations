@@ -1,10 +1,11 @@
 import { React } from 'react';
 import './App.scss';
-import Addition from './components/Addition';
+import Arithmetics from './components/Arithmetic';
 
 const App = (context) =>
 	<div className="App">
-		<Addition { ...context }/>
+		<Arithmetics { ...context }/>
+
 	</div>;
 
 export default App;
