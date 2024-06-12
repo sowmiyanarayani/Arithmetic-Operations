@@ -1,9 +1,9 @@
 import { React } from 'react';
 const Button = (context) => {
-	const { actions, data: { label, action }} = context;
+	const { actions: { setResult }, data } = context;
 
 	return <div>
-		<button onClick={ () => actions[action]() }>{ label }</button>
+		<button onClick={ () => setResult(data) }>{ data }</button>
 	</div>;
 };
 
