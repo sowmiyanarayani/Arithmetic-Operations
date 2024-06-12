@@ -5,7 +5,7 @@ const Operators = (context) => {
 	const { config: { operations }} = context;
 
 	return operations.map((operation, key) =>
-		<Button key={ key }{ ...{ ...context, data: { ...operation }} }/>);
+		<Button key={ key }{ ...{ ...context, data: operation } }/>);
 };
 
 export default Operators;
