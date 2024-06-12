@@ -15,24 +15,7 @@ const config = {
 			name: 'Enter a number',
 		},
 	],
-	operations: [
-		{
-			label: 'addition',
-			action: 'setSum',
-		},
-		{
-			label: 'subtraction',
-			action: 'setDifference',
-		},
-		{
-			label: 'multiply',
-			action: 'setProduct',
-		},
-		{
-			label: 'divide',
-			action: 'setQuotient',
-		},
-	],
+	operations: ['add', 'subtract', 'multiply', 'divide'],
 };
 
 export default config;
