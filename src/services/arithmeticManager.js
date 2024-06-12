@@ -1,10 +1,10 @@
 const arithmeticManager = {
-	addition: (context) => {
+	add: (context) => {
 		const { state } = context;
 
 		return Number(state.firstNumber) + Number(state.secondNumber);
 	},
-	subtraction: (context) => {
+	subtract: (context) => {
 		const { state } = context;
 
 		return state.firstNumber - state.secondNumber;
